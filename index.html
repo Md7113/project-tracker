@@ -26,6 +26,36 @@
     ></script>
 </head>
 <body>
+    <header>
+        <h1>Welcome to your Project Tracker</h1>
+        <div id="runningClock"></div>
+    </header>
+    <main class="row">
+        <aside id="inputCard" class="col-3">
+            <h2>project information</h2>
+            <form class="form">
+                <label for="projectName">Project Name</label>
+                <input type="text" id="projectName" class="formName">
+                <label for="projectType">Project Type</label>
+                <select name="projectType" id="projetType">
+                <label for="hourWage">Project Type</label>
+                <input type="text" id="hourWage">
+                <label for="date">Due date of project</label>
+                <input type="text" id="datepicker">
+                <button type="submit" id="submitBtn">Submit</button>
+            </form>
+        </aside>
+        <section id="tableData" class="col-9">
+            <div class="row">
+                <div class="col-2 customTable">Project Name</div>
+                <div class="col-2 customTable">Project Type</div>
+                <div class="col-2 customTable">Hourly Wage</div>
+                <div class="col-2 customTable">Due Date</div>
+                <div class="col-2 customTable">Days left</div>
+                <div class="col-2 customTable">Estemated earnings</div>
+            </div>
+        </section>
+    </main>
 
 
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>

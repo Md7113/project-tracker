@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: rgb(65, 103, 137);
+    color:aliceblue;
+    height: 150px;
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+}
+
+#runningClock{
+    font-size: 30px;
+}
+form{
+    display:flex;
+    flex-direction: column;
+}
+.customTable{
+    background-color: aquamarine;
+    border: 2px;
+    border-style: solid;
+}
